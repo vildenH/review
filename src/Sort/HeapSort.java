@@ -21,6 +21,7 @@ public class HeapSort {
             nums[index] = temp;
             KeepHeap(nums, maxIndex, length);
         }
+
         return;
 
     }
@@ -37,13 +38,13 @@ public class HeapSort {
             return;
         }
         createHeap(nums, nums.length - 1);
-        int count=0;
+        int count = 0;
         for (int i = nums.length - 1; i >= 0; i--) {
             int temp = nums[i];
             nums[i] = nums[0];
             nums[0] = temp;
-            count ++;
-            KeepHeap(nums,0,nums.length-1-count);
+            count++;
+            KeepHeap(nums, 0, nums.length - 1 - count);
 
         }
 
