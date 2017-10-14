@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
-
+//滑动窗口最大值
 public class MaxInWindows {
     public ArrayList<Integer> maxInWindows(int[] num, int size) {
         ArrayList<Integer> ret = new ArrayList<>();

@@ -1,5 +1,5 @@
 package Array;
-
+//最大子序列和
 public class MaximumSubarray {
     public int maxSubArray(int[] nums) {
         int maxSum = Integer.MIN_VALUE;

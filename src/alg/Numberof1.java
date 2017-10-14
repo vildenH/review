@@ -1,5 +1,6 @@
 package alg;
 
+//查看一个十进制的二进制数中有多少个1
 public class Numberof1 {
     int NumberOf1(int n) {
         int flag = 1;

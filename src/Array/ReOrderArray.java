@@ -1,7 +1,7 @@
 package Array;
 
 import com.sun.org.apache.regexp.internal.RE;
-
+//调整数组顺序使奇数位于偶数前面
 public class ReOrderArray {
     public void reOrderArray(int[] array) {
 
