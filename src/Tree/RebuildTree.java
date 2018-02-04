@@ -1,6 +1,8 @@
 package Tree;
 
-import List.ListNode;
+
+
+//给定二叉树中序遍历，谦虚遍历，重建二叉树
 
 public class RebuildTree {
     public TreeNode reBuild(int[] pre, int[] in, int preStart, int preEnd, int inStart, int inEnd) {
